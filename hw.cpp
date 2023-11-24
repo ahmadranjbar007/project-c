@@ -612,3 +612,110 @@
   
 //   return 0;
 // }
+
+
+// adad n , ba halghe while  "n!"  ra mohasebe konid   "fact"
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int n, fact=1;
+//   cin>> n;
+//   while( n>1)
+//   {
+//     fact = fact*n;
+//     n--;
+//   }
+//   cout<<fact;
+
+//   return 0;
+// }  
+
+
+// karbar adadi ra gerfte v adad " - " vared kard az halghe kharej v , " hasel jame adad + "
+// **********
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int n=0, sum=0;
+//   while (n>=0)
+//   {
+//     cin>>n;
+//     sum= sum+n;
+//   }
+//   cout<<sum;
+
+//   return 0;
+// }
+
+
+// araye ba 100 vorodi, "max ??"
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int A[100], i, max;
+//   for ( i = 0; i < 100; i++)
+//     cin>> A[i];
+//   max = A[0];
+//   for ( i = 1; i < 100; i++)
+//     if (A[i] > max)
+//       max =A[i];
+      
+//   cout<<max;
+
+//   return 0;
+// }
+
+
+// adad 'kamel' beyn a , b 
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int a,b,i,temp,sum,n;
+
+//   cin>>a>>b;
+//   if (a>b)
+//   {
+//     temp=a;
+//     a=b;
+//     b=temp;
+//   }
+//   for(n=1; n<b; n++)
+//   {
+//     sum=0;
+//     for(i=1; i<=n; i++)
+//       if(n%i==0)
+//         sum+=i;
+//     if(sum==2*n)
+//       cout<<n;
+//   }
+
+//   return 0;
+// }
+
+
+// adadi sahih , if aval bod 'True' ! 'False'
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int n,i,sum=0;
+//   cin>>n;
+//   for(i=1; i<=n; i++)
+//     if(n%i == 0)
+//       sum+=i;
+
+//   if(sum==2*n)
+//     cout<<"True";
+//   else
+//     cout<<"False";
+
+//   return 0;
+// }
